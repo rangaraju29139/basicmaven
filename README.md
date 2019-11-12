@@ -1,0 +1,4 @@
+# BasicMaven
+
+New maven project
+

@@ -3,6 +3,7 @@ node{
     git 'https://github.com/SaiVamsiDutt/BasicMaven'
   }
   stage('Compile-Package'){
-    sh 'mvn package' 
+    def mvnHome =tool name: 'MAVEN', type: 'maven'
+    sh '{mvnHome}/bin/mvn package' 
   }
 }

@@ -76,7 +76,12 @@
     <repository>
       <id>releases</id>
       <name>Releases</name>
-      <url>http://34.66.137.122:8081/repository/Releases/</url>
+      <url>http://34.66.137.122:8081/#admin/repository/repositories:Releases</url>
     </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>Snapshots</name>
+      <url>http://34.66.137.122:8081/#admin/repository/repositories:Snapshots</url>
+    </snapshotRepository>
   </distributionManagement>
 </project>

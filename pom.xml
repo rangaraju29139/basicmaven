@@ -72,4 +72,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <name>Releases</name>
+      <url>http://34.66.137.122:8081/repository/Releases/</url>
+    </repository>
+  </distributionManagement>
 </project>

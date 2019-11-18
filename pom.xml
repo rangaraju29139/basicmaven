@@ -74,12 +74,12 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>rls/id>
+      <id>releases</id>
 
       <url>http://35.225.147.121:8081/repository/Releases/</url>
     </repository>
     <snapshotRepository>
-      <id>snp</id>
+      <id>snapshots</id>
 
       <url>http://35.225.147.121:8081/repository/Snapshots/</url>
     </snapshotRepository>

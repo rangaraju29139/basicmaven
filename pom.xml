@@ -76,12 +76,12 @@
     <repository>
       <id>releases</id>
       <name>Releases</name>
-      <url>http://35.188.64.104:8081/repository/Releases//</url>
+      <url>http://35.225.147.121:8081/repository/Releases//</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>Snapshots</name>
-      <url>http://35.188.64.104:8081/repository/Snapshots/</url>
+      <url>http://35.225.147.121:8081/repository/Snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>

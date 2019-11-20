@@ -80,7 +80,7 @@
     </repository>
     
     <snapshotRepository>
-      <id><deployment/id>
+      <id><deployment</id>
       <url>http://34.67.166.181:8081/repository/SAMPLE-SNAP/</url>
     </snapshotRepository>
   </distributionManagement>

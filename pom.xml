@@ -75,12 +75,12 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>releases</id>
+      <id>deployment</id>
       <url>http://34.67.166.181:8081/repository/SAMPLE-REL/</url>
     </repository>
     
     <snapshotRepository>
-      <id>snapshots</id>
+      <id><deployment/id>
       <url>http://34.67.166.181:8081/repository/SAMPLE-SNAP/</url>
     </snapshotRepository>
   </distributionManagement>

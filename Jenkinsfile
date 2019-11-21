@@ -1,9 +1,8 @@
 node{
   stage('SCM Checkout'){
-    git 'https://github.com/SaiVamsiDutt/BasicMaven'
+    git 'https://github.com/rangaraju29139/basicmaven'
   }
   stage('Compile-Package'){
-    def mvnHome =tool name: 'MAVEN', type: 'maven'
-    sh '{mvnHome}/bin/mvn package' 
+    sh 'mvn package' 
   }
 }

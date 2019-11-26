@@ -6,8 +6,9 @@ stage('Compile-package'){
   def mvnHome = tool name: 'maven3', type: 'maven'
   sh "${mvnhome}/bin/mvn package"
 }
-stage('sonar6'){
+stage('sonarqube-analysis'){
 def mvnHome = tool name: 'maven3', type: 'maven'
+ withSonarWubeEnv('sonar6')
   sh "${mvnhome}/bin/mvn sonar:sonar"
 }
 

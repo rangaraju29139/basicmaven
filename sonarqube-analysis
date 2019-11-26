@@ -3,7 +3,7 @@ stage('SCM Checkout'){
 git 'https://github.com/rangaraju29139/basicmaven'
 }
 stage('Compile-package'){
-  def mvnhome tool name: 'maven3', type: 'maven'
+  def mvnhome =tool name: 'maven3', type: 'maven'
   sh "${mvnhome}/bin/mvn package"
 }
 stage('sonarqube-analysis'){

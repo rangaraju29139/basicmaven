@@ -1,0 +1,14 @@
+node{
+stage('SCM Checkout'){
+git 'https://github.com/rangaraju29139/basicmaven'
+}
+stage('Compile-package'){
+  def mvnHome = tool name: 'maven3', type: 'maven'
+  sh "${mvnhome}/bin/mvn package"
+}
+stage('sonar6'){
+def mvnHome = tool name: 'maven3', type: 'maven'
+  sh "${mvnhome}/bin/mvn sonar:sonar"
+}
+
+}

@@ -15,7 +15,7 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <sonar.java.libraries>target</sonar.java.libraries>
   </properties>
-
+<!-- added the comment-->
   <dependencies>
 <dependency>
     <groupId>org.apache.maven.plugins</groupId>
